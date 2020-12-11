@@ -4,7 +4,6 @@ import data from './data.js'
 import TabItem from './TabItem.js'
 
 class TableCard extends Component{
-
   state={
     showListFlag : false
   }
@@ -12,7 +11,6 @@ class TableCard extends Component{
     this.setState({
       showListFlag : !this.state.showListFlag
     })
-    console.log(this.state.showListFlag);
   }
   render(){
     return(
@@ -22,7 +20,6 @@ class TableCard extends Component{
             return <TabItem data={{item,index,subData:data[item]}} key = {index}/>
           }) 
         }
-        
       </ul>
     )
   }
