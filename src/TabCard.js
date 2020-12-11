@@ -3,7 +3,7 @@ import './TableCard.css'
 import data from './data.js'
 import TabItem from './TabItem.js'
 
-class App extends Component{
+class TableCard extends Component{
 
   state={
     showListFlag : false
@@ -28,4 +28,4 @@ class App extends Component{
   }
 }
 
-export default App;
+export default TableCard;
