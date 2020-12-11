@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import TableCard from './TabCard';
 import './index.css'
 
 ReactDOM.render(
-  <App />,
+  <TableCard />,
   document.getElementById('root')
 );

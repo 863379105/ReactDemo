@@ -1,0 +1,27 @@
+.tab-card{
+    display: inline-block;
+}
+
+.tab-item{
+    display: inline-block;
+    border: 1px solid grey;
+    vertical-align: top;
+}
+.tab-item:not(:first-child){
+    margin-left: -1px;
+}
+.tab-name{
+    display: inline-block;
+    cursor: pointer;
+    height: 40px;
+    width: 100px;
+    line-height: 40px;
+    text-align: center;
+}
+.sub-list{
+    text-align: center;
+    display: none;
+}
+.show-sub-list{
+    display: block;
+}
